@@ -10,7 +10,8 @@ name: OpenWrt-CI
 on:
   repository_dispatch:
   workflow_dispatch: 
-
+  push:
+    branches: dreak7-patch-1
 
 permissions:
   contents: read
