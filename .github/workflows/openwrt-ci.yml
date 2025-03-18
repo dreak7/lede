@@ -52,7 +52,7 @@ jobs:
         run: make defconfig
 
       - name: Download packages
-        run: make download -j8
+        run: make download -j16
 
       - name: Compile firmware
         run: |
